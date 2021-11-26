@@ -1,0 +1,114 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "97964133-9118-4be1-86c7-381be6ba5271": {
+        "id": "97964133-9118-4be1-86c7-381be6ba5271",
+        "parent": null,
+        "name": "CalendarioJapones.py",
+        "type": "PYTHON_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "CalendarioJapones.py",
+        "cursor": {
+          "lineNumber": 45,
+          "column": 1
+        },
+        "config": {
+          "runtime": "python3.9",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": [],
+          "name": "CalendarioJapones"
+        },
+        "triggers": [
+          {
+            "resourceName": "alexaSK5c5190d09117490cb0a74aaf2e3b5930",
+            "config": {}
+          }
+        ],
+        "lastUpdated": 1637883700739,
+        "testCases": {
+          "2a149c53-9916-4f7a-96ab-e862c624c27f": {
+            "id": "2a149c53-9916-4f7a-96ab-e862c624c27f",
+            "name": "Test event",
+            "functionId": "97964133-9118-4be1-86c7-381be6ba5271",
+            "event": "{\r\n    \"key1\": \"value1\",\r\n    \"key2\": \"value2\",\r\n    \"key3\": \"value3\"\r\n}",
+            "eventTemplate": "hello-world"
+          }
+        }
+      },
+      "49faf8da-66a1-465c-a125-9fe20cb9afc0": {
+        "id": "49faf8da-66a1-465c-a125-9fe20cb9afc0",
+        "parent": null,
+        "name": "requirements.txt",
+        "type": "TEXT_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "requirements.txt"
+      }
+    },
+    "openFiles": [
+      "97964133-9118-4be1-86c7-381be6ba5271"
+    ],
+    "currentFileId": "97964133-9118-4be1-86c7-381be6ba5271",
+    "resources": {
+      "alexaSK5c5190d09117490cb0a74aaf2e3b5930": {
+        "name": "alexaSK5c5190d09117490cb0a74aaf2e3b5930",
+        "type": "ALEXA",
+        "config": {
+          "type": 1,
+          "verifiedID": true,
+          "skillID": "amzn1.ask.skill.5c5190d0-9117-490c-b0a7-4aaf2e3b5930",
+          "applicationID": ""
+        }
+      }
+    },
+    "customTemplate": {
+      "syntax": "JSON",
+      "overrideDefault": false,
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {
+        "ask_sdk_core": {
+          "name": "ask_sdk_core",
+          "version": "1.13.0",
+          "dev": false,
+          "language": "python"
+        }
+      }
+    }
+  },
+  "PROJECT_META": {
+    "sigmaVersion": "1.9.5",
+    "projectName": "CalendarioJapones",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "language": "python",
+    "platformRegions": {},
+    "lastSave": 1637885419508
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "calendariojapones",
+      "url": "https://github.com/Trazeure/calendariojapones"
+    }
+  }
+}
